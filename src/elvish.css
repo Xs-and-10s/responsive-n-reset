@@ -93,17 +93,26 @@ h2 {
   margin-block-end: var(--s1);
 }
 
-a {
+a, a:link {
   font-weight: 500;
   color: rgba(0,233,188,1);
   text-decoration: inherit;
 }
+/* a:visited {
+  color: #ffffff;
+} */
 a:hover {
   color: rgba(0,255,188,1);
+  text-decoration: underline;
 }
 a:active {
   color: #ffffff
 }
+a:focus {
+  color: rgba(0,255,188,1);
+  text-decoration: underline;
+}
+
 
 /** ----------Elvish----------- **/
 
@@ -140,34 +149,34 @@ a:active {
   margin-block-start: 3.0rem;
 }
 
-[class^="stacked-gap"]:only-child {
+[class^="stacked-stretch"]:only-child {
   block-size: 100%;
 }
-.stacked-gap-2 > :nth-child(2) {
+.stacked-stretch-2 > :nth-child(2) {
   margin-block-end: auto;
 }
-.stacked-gap-3 > :nth-child(3) {
+.stacked-stretch-3 > :nth-child(3) {
   margin-block-end: auto;
 }
-.stacked-gap-4 > :nth-child(4) {
+.stacked-stretch-4 > :nth-child(4) {
   margin-block-end: auto;
 }
-.stacked-gap-5 > :nth-child(5) {
+.stacked-stretch-5 > :nth-child(5) {
   margin-block-end: auto;
 }
-.stacked-gap-6 > :nth-child(6) {
+.stacked-stretch-6 > :nth-child(6) {
   margin-block-end: auto;
 }
-.stacked-gap-7 > :nth-child(7) {
+.stacked-stretch-7 > :nth-child(7) {
   margin-block-end: auto;
 }
-.stacked-gap-8 > :nth-child(8) {
+.stacked-stretch-8 > :nth-child(8) {
   margin-block-end: auto;
 }
-.stacked-gap-9 > :nth-child(9) {
+.stacked-stretch-9 > :nth-child(9) {
   margin-block-end: auto;
 }
-.stacked-gap-10 > :nth-child(10) {
+.stacked-stretch-10 > :nth-child(10) {
   margin-block-end: auto;
 }
 
