@@ -117,9 +117,9 @@ export default function App() {
                     <h3>More...</h3>
                     <div>
                       Additional classes include: `sidebar-left`,
-                      `sidebar-right`, `covered`, `overcast`, `switching`,
-                      `covered`, `Vcentered`, `Hcentered`, `frame`,
-                      `side-scrolling`, & `icon`
+                      `sidebar-right`, `overcast`, `switching`, `covered`,
+                      `Vcentered`, `Hcentered`, `frame`, `side-scrolling`, &
+                      `icon`
                     </div>
                   </div>
                 </div>
